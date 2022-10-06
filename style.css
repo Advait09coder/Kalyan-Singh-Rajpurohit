@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background-color: #202731;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.blue{
+    background-color: #3c31dd;
+}
+.red{
+    background-color: #FF5349;
+}
+
+.spacer{
+    aspect-ratio: 900/600;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: -500px;
+}
+
+.layer1{
+    background-image: url('./the-real-final.svg');
+}
+
+#heading{
+    color: #3c31dd;
+}
+
+.layer2{
+    background-image: url('./wave-haikei (1).svg');
+}
+
+.spacer1{
+    aspect-ratio: 100/33;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+img{
+    border: 10px dashed #FF5349;
+    height: 750px;
+    width: 300px;
+}
+
+#prank{
+    text-align: left;
+}
